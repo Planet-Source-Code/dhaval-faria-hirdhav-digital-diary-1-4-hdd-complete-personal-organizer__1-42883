@@ -1,0 +1,4 @@
+VBGROUP 5.0
+StartupProject=HDD\Hirdhav Digital Diary.vbp
+Project=Update\HDD - Auto Update.vbp
+Project=Reminder\HDD - Reminder.vbp
