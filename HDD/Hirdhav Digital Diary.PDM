@@ -1,0 +1,1173 @@
+[Root]
+Most Recent Package=Standard Setup Package 6
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\system32\wininet.dll=
+C:\Dhaval\VB\HDD Project\Final\HDDU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Dep File 1|Files Added]
+C:\Dhaval\VB\HDD Project\Final\HDDU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=
+
+[Package|Dep File 1|Files Removed]
+c:\dhaval\vb\hdd project\final\hddu.exe=
+
+[Package|Dep File 1|Files In Project]
+C:\Dhaval\VB\HDD Project\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Dhaval\VB\HDD Project\Final\HDDU.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=Yes
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=Yes
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=Yes
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\Dhaval\VB\HDD Project\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=HDD.CAB
+DepCabRun=HDD.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\HDD.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Dep File 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Last
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Dhaval\VB\HDD Project\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=Yes
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=Yes
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=Yes
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=Yes
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Dhaval\VB\HDD Project\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\HDD.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=No
+C:\Dhaval\VB\HDD Project\HDD\HDD.DAT=No
+C:\Dhaval\VB\HDD Project\HDD\Installation.dat=No
+C:\Dhaval\VB\HDD Project\HDD\Memo.dat=No
+C:\Dhaval\VB\HDD Project\HDD\Personal.dat=No
+C:\Dhaval\VB\HDD Project\HDD\Sch.dat=No
+C:\Dhaval\VB\HDD Project\Reminder\Reminder.dat=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Hirdhav Digital Diary
+PrivateGroup0=True
+Parent0=$(Programs)
+Group1=StartUp
+PrivateGroup1=False
+Parent1=$(Start Menu)
+
+[Package|Standard Setup Package 1|Hirdhav Digital Diary]
+Icon1=HDD.exe
+Title1=Hirdhav Digital Diary
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=HDAU.exe
+Title2=HDD - Auto Update
+StartIn2=$(AppPath)
+Key2=Icon4
+
+[Package|Standard Setup Package 1|StartUp]
+Icon1=HDDR.exe
+Title1=HDD - Reminder
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Last
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Last\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Last\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\HDDSetup\Last\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD1p3
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINDOWS\system32\wininet.dll=
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 2|Files Added]
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Dhaval\VB\HDD Project\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=Yes
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Dhaval\VB\HDD Project\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\HDD.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=No
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=No
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=No
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=No
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=No
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Hirdhav Digital Diary
+PrivateGroup0=True
+Parent0=$(Programs)
+Group1=StartUp
+PrivateGroup1=False
+Parent1=$(Start Menu)
+
+[Package|Standard Setup Package 2|Hirdhav Digital Diary]
+Icon1=HDD.exe
+Title1=Hirdhav Digital Diary
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|StartUp]
+Icon1=HDDR.exe
+Title1=Reminder - HDD
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD1p3
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\HDD1p3\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\HDD1p3\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\HDD1p3\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 3|Files Added]
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=Yes
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=Yes
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=$(AppPath)
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=$(AppPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDAU.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDDR.exe=No
+C:\Dhaval\VB\HDD Project\Final\HDD.DAT=No
+C:\Dhaval\VB\HDD Project\Final\Installation.dat=No
+C:\Dhaval\VB\HDD Project\Final\Memo.dat=No
+C:\Dhaval\VB\HDD Project\Final\Personal.dat=No
+C:\Dhaval\VB\HDD Project\Final\Reminder.dat=No
+C:\Dhaval\VB\HDD Project\Final\Sch.dat=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=HDD
+PrivateGroup0=False
+Parent0=$(Programs)
+Group1=Startup
+PrivateGroup1=False
+Parent1=$(Start Menu)
+
+[Package|Standard Setup Package 3|HDD]
+Icon1=HDD.exe
+Title1=Hirdhav Digital Diary
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 3|Startup]
+Icon1=HDDR.exe
+Title1=Reminder - HDD
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+C:\WINDOWS\system32\wininet.dll=
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 4|Files Added]
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=
+C:\Dhaval\VB\Setup\HDD\Installation.dat=
+C:\Dhaval\VB\Setup\HDD\Memo.dat=
+C:\Dhaval\VB\Setup\HDD\Personal.dat=
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=
+C:\Dhaval\VB\Setup\HDD\Sch.dat=
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=Yes
+C:\Dhaval\VB\Setup\HDD\Installation.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Memo.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Personal.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Sch.dat=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Installation.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Memo.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Personal.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Sch.dat=$(AppPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=No
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=No
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=No
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=No
+C:\Dhaval\VB\Setup\HDD\Installation.dat=No
+C:\Dhaval\VB\Setup\HDD\Memo.dat=No
+C:\Dhaval\VB\Setup\HDD\Personal.dat=No
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=No
+C:\Dhaval\VB\Setup\HDD\Sch.dat=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=HDD
+PrivateGroup0=False
+Parent0=$(Programs)
+Group1=Startup
+PrivateGroup1=False
+Parent1=$(Start Menu)
+
+[Package|Standard Setup Package 4|HDD]
+Icon1=HDD.exe
+Title1=Hirdhav Digital Diary
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 4|Startup]
+Icon1=HDDR.exe
+Title1=Reminder
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\HDD
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\HDD\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 5|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\Setup
+
+[Package|Standard Setup Package 5|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 5|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 5|Files Found]
+
+[Package|Standard Setup Package 5|Files Released]
+
+[Package|Standard Setup Package 5|Missing Dependency Information]
+C:\WINDOWS\system32\wininet.dll=
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+
+[Package|Standard Setup Package 5|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 5|Files Added]
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=
+C:\Dhaval\VB\Setup\HDD\Installation.dat=
+C:\Dhaval\VB\Setup\HDD\Memo.dat=
+C:\Dhaval\VB\Setup\HDD\Personal.dat=
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=
+C:\Dhaval\VB\Setup\HDD\Sch.dat=
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=
+
+[Package|Standard Setup Package 5|Files Removed]
+
+[Package|Standard Setup Package 5|Files In Project]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=Yes
+C:\Dhaval\VB\Setup\HDD\Installation.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Memo.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Personal.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Sch.dat=Yes
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=Yes
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=Yes
+
+[Package|Standard Setup Package 5|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 5|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 5|Install Locations]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Installation.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Memo.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Personal.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Sch.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=$(AppPath)
+
+[Package|Standard Setup Package 5|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=No
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=No
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=No
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=No
+C:\Dhaval\VB\Setup\HDD\Installation.dat=No
+C:\Dhaval\VB\Setup\HDD\Memo.dat=No
+C:\Dhaval\VB\Setup\HDD\Personal.dat=No
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=No
+C:\Dhaval\VB\Setup\HDD\Sch.dat=No
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=No
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=No
+
+[Package|Standard Setup Package 5|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 5|IconGroups]
+Group0=Hirdhav Digital Diary
+PrivateGroup0=False
+Parent0=$(Programs)
+Group1=Startup
+PrivateGroup1=True
+Parent1=$(Start Menu)
+
+[Package|Standard Setup Package 5|Hirdhav Digital Diary]
+Icon1=HDD.exe
+Title1=HDD
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 5|Startup]
+Icon1=HDDR.exe
+Title1=Reminder
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standard Setup Package 5|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\Setup
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\Setup\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\Setup\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\Setup\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 6|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\Dhaval Faria\Desktop\1p3
+
+[Package|Standard Setup Package 6|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 6|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 6|Files Found]
+
+[Package|Standard Setup Package 6|Files Released]
+
+[Package|Standard Setup Package 6|Missing Dependency Information]
+C:\WINDOWS\system32\wininet.dll=
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+
+[Package|Standard Setup Package 6|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\msinet.ocx=
+C:\WINDOWS\system32\msmask32.ocx=
+
+[Package|Standard Setup Package 6|Files Added]
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=
+C:\Dhaval\VB\Setup\HDD\Installation.dat=
+C:\Dhaval\VB\Setup\HDD\Memo.dat=
+C:\Dhaval\VB\Setup\HDD\Personal.dat=
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=
+C:\Dhaval\VB\Setup\HDD\Sch.dat=
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=
+
+[Package|Standard Setup Package 6|Files Removed]
+
+[Package|Standard Setup Package 6|Files In Project]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\wininet.dll=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINDOWS\system32\MSJET35.DLL=Yes
+C:\WINDOWS\system32\MSJTER35.DLL=Yes
+C:\WINDOWS\system32\MSJINT35.DLL=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\MSRD2X35.DLL=Yes
+C:\WINDOWS\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\msmask32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\msinet.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=Yes
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=Yes
+C:\Dhaval\VB\Setup\HDD\Installation.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Memo.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Personal.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=Yes
+C:\Dhaval\VB\Setup\HDD\Sch.dat=Yes
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=Yes
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=Yes
+
+[Package|Standard Setup Package 6|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 6|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 6|Install Locations]
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\wininet.dll=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINDOWS\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msmask32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msinet.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Installation.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Memo.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Personal.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\Sch.dat=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=$(AppPath)
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=$(AppPath)
+
+[Package|Standard Setup Package 6|Configure Shared Files]
+Applicable=Yes
+C:\Dhaval\VB\HDD Project\Final\HDD.exe=No
+C:\Dhaval\VB\Setup\HDD\HDAU.exe=No
+C:\Dhaval\VB\Setup\HDD\HDDR.exe=No
+C:\Dhaval\VB\Setup\HDD\HDD.DAT=No
+C:\Dhaval\VB\Setup\HDD\Installation.dat=No
+C:\Dhaval\VB\Setup\HDD\Memo.dat=No
+C:\Dhaval\VB\Setup\HDD\Personal.dat=No
+C:\Dhaval\VB\Setup\HDD\Reminder.dat=No
+C:\Dhaval\VB\Setup\HDD\Sch.dat=No
+C:\Dhaval\VB\Setup\HDD\HDDH.HIS=No
+C:\Dhaval\VB\Setup\HDD\HDDP.dha=No
+
+[Package|Standard Setup Package 6|Distribution]
+Type=single
+Size=
+Title=Hirdhav Digital Diary
+
+[Package|Standard Setup Package 6|IconGroups]
+Group0=HDD
+PrivateGroup0=False
+Parent0=$(Programs)
+Group1=Startup
+PrivateGroup1=False
+Parent1=$(Programs)
+
+[Package|Standard Setup Package 6|HDD]
+Icon1=HDD.exe
+Title1=Hirdhav Digital Diary
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Standard Setup Package 6|Startup]
+Icon1=HDDR.exe
+Title1=Reminder
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Standard Setup Package 6|Package]
+PackageFolder=C:\Documents and Settings\Dhaval Faria\Desktop\1p3
+ProjectFolder=C:\Dhaval\VB\HDD Project\HDD
+ServerSideCab=
+File1=C:\Documents and Settings\Dhaval Faria\Desktop\1p3\setup.exe
+File2=C:\Documents and Settings\Dhaval Faria\Desktop\1p3\Setup.Lst
+File3=C:\Documents and Settings\Dhaval Faria\Desktop\1p3\HDD.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
